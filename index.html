@@ -29,27 +29,32 @@
 
 <body>
     <!-- Home Page -->
-    <header class="bg-primary">
+    <header class="bg-dark">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary d-flex justify-content-end">
-            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon ml-auto"></span>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex justify-content-end fixed-top col-12">
+            <h3 class="font-weight-bolder text-white text-monospace m-0 mr-auto">RCT</h3>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ml-auto"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active ml-auto">
-                        <a class="nav-link" href="#aboutMe">About me <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-uppercase mr-3" href="#top">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active ml-auto">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link text-uppercase mr-3" href="#aboutMe">About me<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active ml-auto">
-                        <a class="nav-link" href="#tools">Tools</a>
+                        <a class="nav-link text-uppercase mr-3" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item active ml-auto">
-                        <a class="nav-link" href="#contactMe">Contact Me</a>
+                        <a class="nav-link text-uppercase mr-3" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item active ml-auto">
+                        <a class="nav-link text-uppercase mr-3" href="#contactMe">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -60,16 +65,17 @@
             <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center col-12 px-5">
 
                 <!-- Left -->
-                <div class="d-lg-flex flex-lg-column col-lg text-center text-lg-right order-2 order-lg-1">
-                    <h2 class="mt-0 mb-0">Ramil Tagavilla</h2>
+                <div class="d-lg-flex flex-lg-column col-lg-5 text-center text-lg-right order-2 order-lg-1 mr-lg-5">
+                    <h2 class="mt-0 mb-0">Ramil C. Tagavilla</h2>
                     <h5>Full Stack Developer</h5>
-                    <p class="col col-lg-8 offset-lg-4 p-0">I'm very passionate and dedicated to my work.</p>
-                    <a href="#aboutMe" class="text-info">Learn more ></a>
+                    <p class="col col-lg-8 offset-lg-4 p-0">I am a full stack developer. I'm very passionate and
+                        dedicated to my work.</p>
+                    <a href="#aboutMe" class="text-info">Learn more about me ></a>
                 </div>
 
                 <!-- Right -->
-                <div class="d-flex col-lg order-1 order-lg-2 p-0 mb-3 mb-lg-0">
-                    <img src="./images/landing_image.jpg" alt="my-image" class="p-0 col-lg-10">
+                <div class="d-flex col-lg-7 order-1 order-lg-2 p-0 mb-3 mb-lg-0">
+                    <img src="./images/landing_image.jpg" alt="my-image" class="p-0 col-lg-10 rounded-pill">
                 </div>
 
             </div>
@@ -83,22 +89,24 @@
         <section id="aboutMe" class="d-flex flex-column justify-content-center align-items-center p-5">
             <div class="bg-dark d-flex flex-column align-items-center border border-info rounded p-3">
                 <h1 class="font-weight-bold">About Me</h1>
-                <p>
-                    Hi! My name is Ramil Tagavilla. I am a full stack developer and I'm very passionate and dedicated to
-                    my work.
+                <p class="text-center col-sm-10">
+                    Hi! My name is Ramil Tagavilla. I've graduated from Baliuag University since 2016 with the course of
+                    BS in Computer Engineering. I have 6 years of EDI-related experience but decided to take a web
+                    development career path.
                 </p>
+                <p class="text-center col-sm-10">My hobbies includes playing computer and mobile games, reading mangas and watching animes.</p>
                 <div class="text-left">
                     <p class="m-0">Mobile No: <em>(+63) 917 332 8909</em></p>
                     <p class="m-0">E-mail: <em>ramiltagavilla@gmail.com</em></p>
                 </div>
-            </div>
 
-            <!-- Social Media -->
-            <div class="text-center mt-3">
-                <a href="https://facebook.com/thumbzzz" target="_blank" class="fa fa-facebook p-2 mx-2"></a>
-                <a href="https://join.skype.com/invite/bd4KLLJVL7iv" target="_blank" class="fa fa-skype p-2 mx-2"></a>
-                <a href="https://gitlab.com/R.C.T" target="_blank" class="fa fa-gitlab p-2 mx-2"></a>
-                <a href="https://github.com/R-C-T" target="_blank" class="fa fa-github p-2 mx-2"></a>
+                <!-- Social Media -->
+                <div class="text-center mt-3">
+                    <a href="https://facebook.com/thumbzzz" target="_blank" class="fa fa-facebook p-2 mx-2"></a>
+                    <a href="https://join.skype.com/invite/bd4KLLJVL7iv" target="_blank" class="fa fa-skype p-2 mx-2"></a>
+                    <a href="https://gitlab.com/R.C.T" target="_blank" class="fa fa-gitlab p-2 mx-2"></a>
+                    <a href="https://github.com/R-C-T" target="_blank" class="fa fa-github p-2 mx-2"></a>
+                </div>
             </div>
 
         </section>
@@ -179,16 +187,14 @@
                 <h3 class="font-weight-bold mt-3 text-center">Other Tools</h3>
 
                 <div class="d-flex flex-lg-column">
-                    <div
-                        class="d-flex align-items-center flex-column flex-lg-row justify-content-lg-center col-6 col-lg">
+                    <div class="d-flex align-items-center flex-column flex-lg-row justify-content-lg-center col-6 col-lg">
                         <img width="150" src="./images/tools/logo-mongodb.png" />
                         <img width="150" src="./images/tools/logo-nodejs.png" />
                         <img width="150" src="./images/tools/logo-expressjs.png" />
                         <img width="150" src="./images/tools/logo-react.png" />
                         <img width="150" src="./images/tools/logo-heroku.png" />
                     </div>
-                    <div
-                        class="d-flex align-items-center flex-column flex-lg-row justify-content-lg-center  mt-3 col-6 col-lg">
+                    <div class="d-flex align-items-center flex-column flex-lg-row justify-content-center mt-lg-3 col-6 col-lg">
                         <img width="150" src="./images/tools/logo-git.png" />
                         <img width="150" src="./images/tools/logo-sublime-text-3.png" />
                         <img width="150" src="./images/tools/logo-postman.png" />
@@ -201,11 +207,10 @@
         <!-- End of Tools Sections -->
 
         <!-- Contact Me Section -->
-        <section id="contactMe"
-            class="bg-dark p-5 d-flex flex-column align-items-center justify-content-center">
+        <section id="contactMe" class="bg-dark p-5 d-flex flex-column align-items-center justify-content-center">
             <h2 class="font-weight-bold">Contact Me</h2>
 
-            <form class="d-flex flex-column bg-info p-3 col-12 col-lg-10">
+            <form class="d-flex flex-column bg-secondary p-3 col-12 col-lg-10">
 
                 <div class="d-flex flex-column flex-lg-row justify-content-around">
                     <!-- Name -->
@@ -273,7 +278,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-primary text-center text-white p-2">
+    <footer class="bg-secondary text-center text-white p-2">
         <p class="m-1">Ramil Tagavilla</p>
         <p class="m-0">All Rights Reserved 2022</p>
     </footer>
